@@ -1,0 +1,19 @@
+
+body,
+.box_one,
+ul {
+    display: flex;
+}
+
+
+
+body {
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    gap: 20px;
+}
+
+

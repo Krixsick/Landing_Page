@@ -1,7 +1,8 @@
 
 body,
 .box_one,
-ul {
+ul,
+.heading_one {
     display: flex;
 }
 
@@ -9,11 +10,35 @@ ul {
 
 body {
     flex-direction: column;
+    margin: 0;
+
+}
+
+.box_one {
+    height: 500px;
+    background-color: #1F2937;
 }
 
 ul {
     list-style-type: none;
     gap: 20px;
+    color: white;
+
 }
+
+.header_logo {
+    width: 50%;
+    margin-left: 200px;
+    padding-top: 15px;
+    font-size: 24px;
+    color: white;
+    background-color: #1F2937;
+
+}
+
+.heading_one {
+    color: white;
+}
+
 
 

@@ -1,0 +1,52 @@
+
+/*All below is the code used for the header and header links one and etc*/
+#header-container {
+    width: 100%;
+    height: 150px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    height: 50px;
+    background-color: red;
+}
+
+#header-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    text-align: center;
+}
+
+#header-link-container {
+    gap: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+    height: 50px;
+    align-items: center;
+}
+
+.header-link-words {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-align: start;
+    padding: 5px;
+
+}
+
+
+/*Below will be code used for the "This website is awesome" and image*/
+
+#second_part_of_header {
+    display: flex;
+    background-color: red;
+    height: 200px;
+}
+

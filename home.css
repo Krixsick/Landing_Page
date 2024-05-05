@@ -104,11 +104,12 @@ p {
     display: flex;
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color: white;
     flex-direction: column;
     
 }
 
+/*The Some Random Information Heading */
 #random-box {
     padding: 30px;
     text-align: center;
@@ -116,8 +117,9 @@ p {
     font-weight: bold;
 }
 
+/*This is the main div tag that contains all the other div tags*/
 #info-container {
-    background-color: yellow;
+    background-color: white;
     display: flex;
     flex-basis: 250px;
     width: 100%;
@@ -126,12 +128,14 @@ p {
     gap: 30px;
     
 }
+
+/*box is the space for both the blue square and description*/
 .box {
     flex-direction: column;
 }
 
 
-
+/*Details for the blue box */
 .inner-box {
     align-items: center;
     justify-content: center;
@@ -143,6 +147,7 @@ p {
     border-radius: 10px;
 }
 
+/* Text */
 .box-subtext {
     margin-top: 20px;  /* Adjust as needed */
     text-align: center;
@@ -150,3 +155,6 @@ p {
     font-size: 14px;
     width: 200px;
 }
+
+/*Third section */
+

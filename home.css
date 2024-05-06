@@ -158,3 +158,69 @@ p {
 
 /*Third section */
 
+#third-section {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+#quotation {
+    font-size: 36px;
+    width: 900px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+#author {
+    margin-top: 10px;
+    width: 900px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/*Fourth Section */
+
+#fourth-section {
+    display: flex;
+    background-color: red;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-box {
+    display: flex;
+    flex-basis: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    justify-content: space-around;
+}
+
+#action {
+    flex-direction: column;
+}
+
+#action-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#signup-button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
+
+}
